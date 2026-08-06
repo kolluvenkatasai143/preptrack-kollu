@@ -226,16 +226,7 @@ PrepTrack/
 
 ---
 
-# 🚀 Future Improvements
 
-* Export reports as PDF
-* Save student records to files
-* Add graphical performance charts
-* Store data using a database
-* Build a GUI version using Tkinter
-* Develop a web version using Flask
-
----
 
 # 🙋‍♂️ Author
 
