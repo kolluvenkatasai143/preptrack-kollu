@@ -1,125 +1,119 @@
-<div align="center">
-
 # 🚀 PrepTrack
 
-### **Placement Preparation Performance Analyzer**
+## 🎯 Placement Preparation Performance Analyzer
 
-*A Python Console Application for Evaluating Placement Readiness*
+### *Evaluate • Analyze • Improve • Succeed*
 
-<br>
+![Made With Python](https://img.shields.io/badge/Made%20With-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Placement Ready](https://img.shields.io/badge/Placement%20Readiness-Analyzer-00C853?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v1.0-9C27B0?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Project-24292F?style=for-the-badge\&logo=github\&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
-![Console App](https://img.shields.io/badge/Application-Console-success)
-![Team Project](https://img.shields.io/badge/Project-Team-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
+---
 
-</div>
+> 💡 **PrepTrack** is a Python-based application that evaluates a student's placement readiness by analyzing attendance, project completion, profile verification, and coding practice performance. It provides detailed insights along with the student's final placement status and recommendations.
 
 ---
 
 # 📖 Project Overview
 
-PrepTrack is a Python console application that evaluates a student's placement preparation performance. It collects important information such as student profile details, attendance percentage, project completion status, profile verification status, and seven days of coding practice scores.
+PrepTrack is a Python console application developed to evaluate a student's placement preparation performance. It collects student profile details, attendance percentage, project completion status, profile verification status, and seven days of coding practice scores.
 
-The application performs detailed analysis on attendance, score consistency, pass/fail performance, highest and lowest scores, and identifies any critical issues. Based on these factors, it determines whether the student is placement-ready and provides the primary blocker along with the recommended next action.
+The application performs detailed analysis of attendance, coding performance, score consistency, pass/fail ratio, highest and lowest scores, and identifies any critical issues. Based on this analysis, it determines whether the student is placement-ready and displays the primary blocker along with the recommended next action.
 
 ---
 
 # ✨ Features Implemented
 
-✅ Student Profile Collection
+### 👤 Student Information
 
 * Student Name
 * Registration Number
 * Graduation Year
 
-✅ Attendance Validation
+### 📅 Attendance Management
 
-* Accepts values between **0–100**
-* Rejects invalid attendance values
+* Attendance validation (0–100)
+* Invalid input handling
 
-✅ Project & Profile Validation
+### 📂 Verification Module
 
 * Project Completion Status
 * Profile Verification Status
-* Yes/No input validation
+* Yes/No validation
 
-✅ Seven-Day Coding Practice Analysis
+### 💻 Coding Practice Analysis
 
-* Practice score collection
-* Absent day handling using `continue`
+* Seven-day practice evaluation
+* Absent-day handling using `continue`
 * Score validation
+* Score classification
 
-✅ Performance Analysis
+### 📊 Performance Analysis
 
 * Strong Performance
 * Satisfactory Performance
 * Needs Improvement
 * Critical Performance Detection
+* Passed Day Count
+* Failed Day Count
+* Highest Score Detection
+* Lowest Score Detection
+* Total Score Calculation
+* Average Score Calculation
 
-✅ Statistics Generated
+### 🎯 Placement Evaluation
 
-* Total Practice Score
-* Average Score
-* Passed Days
-* Failed Days
-* Highest Score
-* Lowest Score
-* First Critical Score
-
-✅ Placement Readiness Evaluation
-
-* Attendance Verification
+* Attendance Eligibility
 * Graduation Eligibility
 * Practice Completion Check
 * Project Completion Check
 * Profile Verification Check
-* Average Score Evaluation
-* First Blocker Identification
+* Placement Readiness Decision
+* Primary Blocker Detection
 * Final Recommendation
 
 ---
 
 # 🧠 Python Concepts Used
 
-| Concept              | Used |
-| :------------------- | :--: |
-| Variables            |   ✅  |
-| Data Types           |   ✅  |
-| User Input           |   ✅  |
-| Type Casting         |   ✅  |
-| Arithmetic Operators |   ✅  |
-| Relational Operators |   ✅  |
-| Logical Operators    |   ✅  |
-| Assignment Operators |   ✅  |
-| `if`, `elif`, `else` |   ✅  |
-| Nested Conditions    |   ✅  |
-| `for` Loop           |   ✅  |
-| `while` Loop         |   ✅  |
-| `continue` Statement |   ✅  |
-| Counters             |   ✅  |
-| Accumulators         |   ✅  |
-| Boolean Expressions  |   ✅  |
-| f-Strings            |   ✅  |
+| Concept              | Status |
+| :------------------- | :----: |
+| Variables            |    ✅   |
+| Data Types           |    ✅   |
+| User Input           |    ✅   |
+| Type Casting         |    ✅   |
+| Arithmetic Operators |    ✅   |
+| Relational Operators |    ✅   |
+| Logical Operators    |    ✅   |
+| Assignment Operators |    ✅   |
+| if / elif / else     |    ✅   |
+| Nested Conditions    |    ✅   |
+| for Loop             |    ✅   |
+| while Loop           |    ✅   |
+| continue Statement   |    ✅   |
+| Counters             |    ✅   |
+| Accumulators         |    ✅   |
+| Boolean Expressions  |    ✅   |
+| f-Strings            |    ✅   |
 
 ---
 
-# 🛠️ How to Run
+# ⚙️ How to Run
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/kolluvenkatasai143/PrepTrack.git
 ```
 
-Move into the project directory:
+### Open the project
 
 ```bash
 cd PrepTrack
 ```
 
-Run the application:
+### Run the application
 
 ```bash
 python main.py
@@ -140,35 +134,34 @@ python3 main.py
 | **Name**           | Kollu Venkata Sai                               |
 | **Role**           | Python Developer                                |
 | **GitHub Profile** | https://github.com/kolluvenkatasai143           |
-| **Repository URL** | https://github.com/kolluvenkatasai143/PrepTrack |
+| **Repository**     | https://github.com/kolluvenkatasai143/PrepTrack |
 
-### 🎯 My Main Contribution
+### 🚀 My Main Contribution
 
 * Developed the complete placement performance analyzer.
 * Implemented attendance validation.
 * Implemented project and profile verification.
-* Built the seven-day score analysis logic.
-* Developed placement-readiness evaluation.
+* Built seven-day coding practice analysis.
+* Developed placement-readiness evaluation logic.
 * Generated the final performance report.
 
-### 🚀 Features Implemented
+### ✅ Features I Implemented
 
 * Student Profile Collection
 * Attendance Validation
 * Practice Score Validation
 * Score Classification
 * Pass/Fail Counting
-* Highest Score Detection
-* Lowest Score Detection
-* Total & Average Calculation
-* Placement Readiness Logic
+* Highest & Lowest Score Detection
+* Average Score Calculation
+* Placement Readiness Evaluation
 * Final Recommendation
 
-### 💡 Python Concepts Used
+### 💡 Python Concepts I Used
 
 * Variables
-* Conditional Statements
 * Loops
+* Conditional Statements
 * Boolean Logic
 * Counters
 * Accumulators
@@ -177,15 +170,15 @@ python3 main.py
 
 ### ⚡ Most Difficult Logic
 
-Implementing the placement-readiness decision while ensuring only the highest-priority blocker is displayed as the final reason for the student's status.
+Implementing placement-readiness evaluation while ensuring only the highest-priority blocker is displayed in the final report.
 
 ### 🐞 Problem Faced
 
-Managing absent practice days without affecting average score, highest score, lowest score, and pass/fail calculations.
+Handling absent practice days without affecting the average score, highest score, lowest score, and pass/fail calculations.
 
 ### ✅ Solution
 
-Used the `continue` statement to skip absent days and maintained separate counters and accumulators so that only valid scores were included in all calculations.
+Used the `continue` statement to skip absent days and maintained separate counters and accumulators so only valid practice scores were included in the calculations.
 
 ---
 
@@ -204,7 +197,7 @@ Used the `continue` statement to skip absent days and maintained separate counte
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
 ```text
 PrepTrack/
@@ -216,30 +209,44 @@ PrepTrack/
 
 ---
 
-# 🌟 Highlights
+# 🌟 Project Highlights
 
-* ✔️ Beginner Friendly
-* ✔️ Console-Based Application
-* ✔️ Input Validation
-* ✔️ Placement Readiness Evaluation
-* ✔️ Well-Structured Logic
-* ✔️ Easy to Understand
-* ✔️ Individual Project
+✨ Beginner-Friendly Python Project
+
+📊 Real-Time Placement Performance Analysis
+
+🧮 Manual Score Calculations (Without `sum()`, `max()`, or `min()`)
+
+🔍 Strong Input Validation
+
+🎯 Placement Readiness Decision System
+
+📈 Clean and Structured Python Logic
+
+🤝 Suitable for Team Collaboration
 
 ---
 
-<div align="center">
+# 🚀 Future Improvements
+
+* Export reports as PDF
+* Save student records to files
+* Add graphical performance charts
+* Store data using a database
+* Build a GUI version using Tkinter
+* Develop a web version using Flask
+
+---
 
 # 🙋‍♂️ Author
 
 ## **Kollu Venkata Sai**
 
-### 🐍 Python Developer
+**🐍 Python Developer**
 
-GitHub: **https://github.com/kolluvenkatasai143**
+**GitHub:** https://github.com/kolluvenkatasai143
 
-⭐ **Thank you for visiting this project!**
+---
 
-If you found it useful, consider giving it a ⭐ on GitHub.
+### ⭐ If you found this project useful, consider giving it a star on GitHub!
 
-</div>
