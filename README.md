@@ -1,63 +1,125 @@
-# PrepTrack — Placement Preparation Performance Analyzer
+<div align="center">
 
-## Project Overview
+# 🚀 PrepTrack
 
-PrepTrack is a Python console application that evaluates a student's placement-preparation performance. It collects the student's profile details, attendance percentage, project completion status, profile verification status, and seven days of coding-practice scores. The application analyzes attendance, score consistency, pass/fail performance, and critical issues before determining the student's placement readiness. Finally, it displays the student's overall status, the primary blocker (if any), and the recommended next action.
+### **Placement Preparation Performance Analyzer**
 
----
+*A Python Console Application for Evaluating Placement Readiness*
 
-## Features Implemented
+<br>
 
-* Student profile input (Name, Registration Number, Graduation Year)
-* Attendance validation (0–100)
-* Project completion validation (Yes/No)
-* Profile verification validation (Yes/No)
-* Seven-day coding practice evaluation
-* Absent-day handling using `continue`
-* Score classification:
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
+![Console App](https://img.shields.io/badge/Application-Console-success)
+![Team Project](https://img.shields.io/badge/Project-Team-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
 
-  * Strong
-  * Satisfactory
-  * Needs Improvement
-  * Critical
-* Passed and failed practice counting
-* Highest score detection (without `max()`)
-* Lowest score detection (without `min()`)
-* First critical-score identification
-* Total score calculation (without `sum()`)
-* Average score calculation
-* Placement readiness evaluation
-* Primary blocker identification
-* Recommended next action
-* Complete formatted final report
+</div>
 
 ---
 
-## Python Concepts Used
+# 📖 Project Overview
 
-* Variables
-* Data Types
-* Input and Output
-* Type Casting
-* Arithmetic Operators
-* Relational Operators
-* Logical Operators
-* Assignment Operators
-* `if`, `elif`, `else`
-* Nested Conditions
-* `for` Loop
-* `while` Loop
-* `continue`
-* Counters
-* Accumulators
-* Boolean Expressions
-* f-Strings
+PrepTrack is a Python console application that evaluates a student's placement preparation performance. It collects important information such as student profile details, attendance percentage, project completion status, profile verification status, and seven days of coding practice scores.
+
+The application performs detailed analysis on attendance, score consistency, pass/fail performance, highest and lowest scores, and identifies any critical issues. Based on these factors, it determines whether the student is placement-ready and provides the primary blocker along with the recommended next action.
 
 ---
 
-## How to Run
+# ✨ Features Implemented
 
-Run the program using:
+✅ Student Profile Collection
+
+* Student Name
+* Registration Number
+* Graduation Year
+
+✅ Attendance Validation
+
+* Accepts values between **0–100**
+* Rejects invalid attendance values
+
+✅ Project & Profile Validation
+
+* Project Completion Status
+* Profile Verification Status
+* Yes/No input validation
+
+✅ Seven-Day Coding Practice Analysis
+
+* Practice score collection
+* Absent day handling using `continue`
+* Score validation
+
+✅ Performance Analysis
+
+* Strong Performance
+* Satisfactory Performance
+* Needs Improvement
+* Critical Performance Detection
+
+✅ Statistics Generated
+
+* Total Practice Score
+* Average Score
+* Passed Days
+* Failed Days
+* Highest Score
+* Lowest Score
+* First Critical Score
+
+✅ Placement Readiness Evaluation
+
+* Attendance Verification
+* Graduation Eligibility
+* Practice Completion Check
+* Project Completion Check
+* Profile Verification Check
+* Average Score Evaluation
+* First Blocker Identification
+* Final Recommendation
+
+---
+
+# 🧠 Python Concepts Used
+
+| Concept              | Used |
+| :------------------- | :--: |
+| Variables            |   ✅  |
+| Data Types           |   ✅  |
+| User Input           |   ✅  |
+| Type Casting         |   ✅  |
+| Arithmetic Operators |   ✅  |
+| Relational Operators |   ✅  |
+| Logical Operators    |   ✅  |
+| Assignment Operators |   ✅  |
+| `if`, `elif`, `else` |   ✅  |
+| Nested Conditions    |   ✅  |
+| `for` Loop           |   ✅  |
+| `while` Loop         |   ✅  |
+| `continue` Statement |   ✅  |
+| Counters             |   ✅  |
+| Accumulators         |   ✅  |
+| Boolean Expressions  |   ✅  |
+| f-Strings            |   ✅  |
+
+---
+
+# 🛠️ How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kolluvenkatasai143/PrepTrack.git
+```
+
+Move into the project directory:
+
+```bash
+cd PrepTrack
+```
+
+Run the application:
 
 ```bash
 python main.py
@@ -71,36 +133,38 @@ python3 main.py
 
 ---
 
-## Individual Contribution
+# 👨‍💻 Individual Contribution
 
-**Name:** Kollu Venkata Sai
+| Category           | Details                                         |
+| :----------------- | :---------------------------------------------- |
+| **Name**           | Kollu Venkata Sai                               |
+| **Role**           | Python Developer                                |
+| **GitHub Profile** | https://github.com/kolluvenkatasai143           |
+| **Repository URL** | https://github.com/kolluvenkatasai143/PrepTrack |
 
-**GitHub Profile:** https://github.com/kolluvenkatasai143
+### 🎯 My Main Contribution
 
-**Repository URL:** https://github.com/kolluvenkatasai143/PrepTrack
+* Developed the complete placement performance analyzer.
+* Implemented attendance validation.
+* Implemented project and profile verification.
+* Built the seven-day score analysis logic.
+* Developed placement-readiness evaluation.
+* Generated the final performance report.
 
-**Role:** Python Developer
+### 🚀 Features Implemented
 
-### My Main Contribution
+* Student Profile Collection
+* Attendance Validation
+* Practice Score Validation
+* Score Classification
+* Pass/Fail Counting
+* Highest Score Detection
+* Lowest Score Detection
+* Total & Average Calculation
+* Placement Readiness Logic
+* Final Recommendation
 
-* Developed the complete placement-performance analysis logic.
-* Implemented score processing and placement-readiness evaluation.
-* Added validation for attendance, project status, profile verification, and practice scores.
-* Designed the final performance report.
-
-### Features I Implemented
-
-* Student profile collection
-* Attendance validation
-* Seven-day practice score analysis
-* Pass/Fail counting
-* Highest and Lowest score detection
-* Average score calculation
-* Placement readiness logic
-* Primary blocker detection
-* Final recommendation report
-
-### Python Concepts I Used
+### 💡 Python Concepts Used
 
 * Variables
 * Conditional Statements
@@ -111,39 +175,71 @@ python3 main.py
 * Input Validation
 * f-Strings
 
-### Most Difficult Logic
+### ⚡ Most Difficult Logic
 
-Implementing the placement-readiness decision while ensuring that only the first blocker is displayed as the primary reason for the student's status.
+Implementing the placement-readiness decision while ensuring only the highest-priority blocker is displayed as the final reason for the student's status.
 
-### Problem I Faced
+### 🐞 Problem Faced
 
-Handling absent practice days while calculating the average score and maintaining accurate pass/fail counts.
+Managing absent practice days without affecting average score, highest score, lowest score, and pass/fail calculations.
 
-### How I Solved It
+### ✅ Solution
 
-I used the `continue` statement to skip absent days and maintained separate counters and accumulators so that only valid practice scores were included in the calculations.
+Used the `continue` statement to skip absent days and maintained separate counters and accumulators so that only valid scores were included in all calculations.
 
 ---
 
-## Team Directory (Team Lead Only)
+# 👥 Team Directory *(Team Lead Only)*
 
 | Member Name | GitHub Profile Link | PrepTrack Repository Link | Submission Status |
-| ----------- | ------------------- | ------------------------- | ----------------- |
-| Member 1    |                    |                            | Pending           |
-| Member 2    |                     |                           | Pending           |
-| Member 3    |                     |                           | Pending           |
-| Member 4    |                     |                           | Pending           |
-| Member 5    |                     |                           | Pending           |
-| Member 6    |                     |                           | Pending           |
-| Member 7    |                     |                           | Pending           |
-| Member 8    |                     |                           | Pending           |
+| :---------- | :------------------ | :------------------------ | :---------------: |
+| Member 1    |                     |                           |     ⏳ Pending     |
+| Member 2    |                     |                           |     ⏳ Pending     |
+| Member 3    |                     |                           |     ⏳ Pending     |
+| Member 4    |                     |                           |     ⏳ Pending     |
+| Member 5    |                     |                           |     ⏳ Pending     |
+| Member 6    |                     |                           |     ⏳ Pending     |
+| Member 7    |                     |                           |     ⏳ Pending     |
+| Member 8    |                     |                           |     ⏳ Pending     |
 
 ---
 
-## Author
+# 📂 Project Structure
 
-**Kollu Venkata Sai**
+```text
+PrepTrack/
+│
+├── main.py
+├── README.md
+└── assets/
+```
 
-**Role:** Python Developer
+---
 
-**GitHub:** https://github.com/kolluvenkatasai143
+# 🌟 Highlights
+
+* ✔️ Beginner Friendly
+* ✔️ Console-Based Application
+* ✔️ Input Validation
+* ✔️ Placement Readiness Evaluation
+* ✔️ Well-Structured Logic
+* ✔️ Easy to Understand
+* ✔️ Team Project
+
+---
+
+<div align="center">
+
+# 🙋‍♂️ Author
+
+## **Kollu Venkata Sai**
+
+### 🐍 Python Developer
+
+GitHub: **https://github.com/kolluvenkatasai143**
+
+⭐ **Thank you for visiting this project!**
+
+If you found it useful, consider giving it a ⭐ on GitHub.
+
+</div>
