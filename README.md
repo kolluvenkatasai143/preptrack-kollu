@@ -6,9 +6,9 @@
 
 
 
-\
 
----
+
+
 
 > 💡 **PrepTrack** is a Python-based application that evaluates a student's placement readiness by analyzing attendance, project completion, profile verification, and coding practice performance. It provides detailed insights along with the student's final placement status and recommendations.
 
