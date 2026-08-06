@@ -182,3 +182,12 @@ PrepTrack/
 
 🙋‍♂️ Author
 Kollu Venkata Sai
+🐍 Python Developer
+
+GitHub: https://github.com/kolluvenkatasai143
+
+⭐ Thank you for visiting this project!
+
+If you found it useful, consider giving it a ⭐ on GitHub.
+
+</div>
