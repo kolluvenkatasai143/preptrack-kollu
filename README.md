@@ -224,7 +224,7 @@ PrepTrack/
 * ✔️ Placement Readiness Evaluation
 * ✔️ Well-Structured Logic
 * ✔️ Easy to Understand
-* ✔️ Team Project
+* ✔️ Individual Project
 
 ---
 
