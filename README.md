@@ -2,118 +2,148 @@
 
 ## Project Overview
 
-<!-- Write 2–4 sentences in your own words covering:
-     - what the application does
-     - what information it collects
-     - what analysis it performs
-     - what final result it displays -->
+PrepTrack is a Python console application that evaluates a student's placement-preparation performance. It collects the student's profile details, attendance percentage, project completion status, profile verification status, and seven days of coding-practice scores. The application analyzes attendance, score consistency, pass/fail performance, and critical issues before determining the student's placement readiness. Finally, it displays the student's overall status, the primary blocker (if any), and the recommended next action.
 
-PrepTrack is a Python console application that evaluates a student's placement-preparation performance. It collects the student's profile details, attendance, project and profile-verification status, and seven daily coding-practice scores. It then analyzes attendance, scoring trends, and consistency to determine passed/failed days, highest and lowest scores, and any critical performance issues. Finally, it displays a placement-readiness decision along with the primary blocker (if any) and the recommended next action.
+---
 
 ## Features Implemented
 
-- Student-profile input (name, registration number, graduation year)
-- Attendance validation (0–100)
-- Yes-or-no input validation for project and profile status
-- Seven-day practice score processing using a single loop
-- Absent-day handling (`-1`) using `continue`
-- Score classification (Strong / Satisfactory / Needs Improvement / Critical)
-- Passed and failed day counting
-- Highest and lowest score detection (without `max()`/`min()`)
-- First critical-score detection
-- Total and average score calculation (without `sum()`), with division-by-zero prevention
-- Placement-readiness evaluation using combined Boolean conditions
-- First-blocker priority logic for final status
-- Full formatted final report
+* Student profile input (Name, Registration Number, Graduation Year)
+* Attendance validation (0–100)
+* Project completion validation (Yes/No)
+* Profile verification validation (Yes/No)
+* Seven-day coding practice evaluation
+* Absent-day handling using `continue`
+* Score classification:
+
+  * Strong
+  * Satisfactory
+  * Needs Improvement
+  * Critical
+* Passed and failed practice counting
+* Highest score detection (without `max()`)
+* Lowest score detection (without `min()`)
+* First critical-score identification
+* Total score calculation (without `sum()`)
+* Average score calculation
+* Placement readiness evaluation
+* Primary blocker identification
+* Recommended next action
+* Complete formatted final report
+
+---
 
 ## Python Concepts Used
 
-- `input()`, `int()`, `float()`
-- Variables, meaningful naming, f-strings
-- Boolean expressions and compound conditions
-- `if` / `elif` / `else`, including nested conditions
-- `while` loops for input validation (`break`)
-- `for` loop with `range()` for the seven-day cycle
-- `continue` for skipping absent days
-- Counter and accumulator variables
-- Arithmetic, relational, and logical operators
+* Variables
+* Data Types
+* Input and Output
+* Type Casting
+* Arithmetic Operators
+* Relational Operators
+* Logical Operators
+* Assignment Operators
+* `if`, `elif`, `else`
+* Nested Conditions
+* `for` Loop
+* `while` Loop
+* `continue`
+* Counters
+* Accumulators
+* Boolean Expressions
+* f-Strings
+
+---
 
 ## How to Run
+
+Run the program using:
 
 ```bash
 python main.py
 ```
 
-Depending on your system configuration:
+or
 
 ```bash
 python3 main.py
 ```
 
-## Test-Result Summary
-
-| Test ID | Scenario                     | Expected Result                 | Actual Result | Status |
-| ------- | ----------------------------- | -------------------------------- | -------------- | ------ |
-| TC-01   | All requirements satisfied    | Ready for Mock Interview         |                |        |
-| TC-02   | Critical score present        | Critical Support Required        |                |        |
-| TC-03   | Fewer than six attempts       | Practice Incomplete              |                |        |
-| TC-04   | Fewer than four passes        | Insufficient Passed Practices    |                |        |
-| TC-05   | Average below 70              | Practice Improvement Required    |                |        |
-| TC-06   | Attendance below 75           | Attendance Improvement Required  |                |        |
-| TC-07   | Graduation year not eligible  | Graduation Criteria Not Met      |                |        |
-| TC-08   | Project incomplete            | Application On Hold              |                |        |
-| TC-09   | Profile not verified          | Application On Hold              |                |        |
-| TC-10   | All days absent               | Practice Not Evaluated           |                |        |
-| TC-11   | Invalid low score              | Input rejected                   |                |        |
-| TC-12   | Invalid high score             | Input rejected                   |                |        |
-| TC-13   | Boundary scores                | Correct classifications          |                |        |
-| TC-14   | Multiple blockers              | First blocker displayed          |                |        |
-
-<!-- Use "Pass" or "Fail" in the Status column. Only fill this in after you have actually run each test yourself. -->
+---
 
 ## Individual Contribution
 
-```
-Name:
+**Name:** Kollu Venkata Sai
 
-Repository URL:
+**GitHub Profile:** https://github.com/kolluvenkatasai143
 
-My main contribution:
+**Repository URL:** https://github.com/kolluvenkatasai143/PrepTrack
 
-Features I implemented:
+**Role:** Python Developer
 
-Python concepts I used:
+### My Main Contribution
 
-Most difficult logic:
+* Developed the complete placement-performance analysis logic.
+* Implemented score processing and placement-readiness evaluation.
+* Added validation for attendance, project status, profile verification, and practice scores.
+* Designed the final performance report.
 
-Problem I faced:
+### Features I Implemented
 
-How I solved it:
-```
+* Student profile collection
+* Attendance validation
+* Seven-day practice score analysis
+* Pass/Fail counting
+* Highest and Lowest score detection
+* Average score calculation
+* Placement readiness logic
+* Primary blocker detection
+* Final recommendation report
 
-<!-- Fill this in honestly with your own experience building the project. -->
+### Python Concepts I Used
 
-## Code Review Completed
+* Variables
+* Conditional Statements
+* Loops
+* Boolean Logic
+* Counters
+* Accumulators
+* Input Validation
+* f-Strings
 
-| Reviewed Member | Repository Link | What Was Done Well | Issue Identified | Suggested Improvement |
-| ---------------- | ----------------- | -------------------- | ------------------- | ------------------------ |
-|                   |                    |                       |                      |                           |
+### Most Difficult Logic
 
-<!-- Fill this in after you actually review your assigned teammate's repository.
-     Be specific — avoid generic feedback like "good code" or "well done". -->
+Implementing the placement-readiness decision while ensuring that only the first blocker is displayed as the primary reason for the student's status.
 
-## Feedback Received
+### Problem I Faced
 
-```
-Reviewed By:
+Handling absent practice days while calculating the average score and maintaining accurate pass/fail counts.
 
-Feedback Received:
+### How I Solved It
 
-Was the Feedback Valid? Yes / No
+I used the `continue` statement to skip absent days and maintained separate counters and accumulators so that only valid practice scores were included in the calculations.
 
-Change Made:
+---
 
-Commit Message Used:
-```
+## Team Directory (Team Lead Only)
 
-<!-- Fill this in after your own repository has been reviewed and you've applied any valid feedback. -->
+| Member Name | GitHub Profile Link | PrepTrack Repository Link | Submission Status |
+| ----------- | ------------------- | ------------------------- | ----------------- |
+| Member 1    |                    |                            | Pending           |
+| Member 2    |                     |                           | Pending           |
+| Member 3    |                     |                           | Pending           |
+| Member 4    |                     |                           | Pending           |
+| Member 5    |                     |                           | Pending           |
+| Member 6    |                     |                           | Pending           |
+| Member 7    |                     |                           | Pending           |
+| Member 8    |                     |                           | Pending           |
+
+---
+
+## Author
+
+**Kollu Venkata Sai**
+
+**Role:** Python Developer
+
+**GitHub:** https://github.com/kolluvenkatasai143
