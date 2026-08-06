@@ -1,8 +1,8 @@
-# 🚀 PrepTrack
+                                                         # 🚀 PrepTrack
 
-## 🎯 Placement Preparation Performance Analyzer
+                                       ## 🎯 Placement Preparation Performance Analyzer
 
-### *Evaluate • Analyze • Improve • Succeed*
+                                         ### *Evaluate • Analyze • Improve • Succeed*
 
 ![Made With Python](https://img.shields.io/badge/Made%20With-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Placement Ready](https://img.shields.io/badge/Placement%20Readiness-Analyzer-00C853?style=for-the-badge)
