@@ -2,7 +2,7 @@
 
 ##           🎯 Placement Preparation Performance Analyzer
 
-### *                    Evaluate • Analyze • Improve • Succeed*
+###                   Evaluate • Analyze • Improve • Succeed
 
 
 
