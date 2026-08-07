@@ -180,7 +180,6 @@ Used the `continue` statement to skip absent days and maintained separate counte
 # 👥 Team Directory *(Team Lead Only)*
 
 | Member Name                | GitHub Profile Link                         | Repository Link                                              |    Submission Status |
-|:---------------------------|:--------------------------------------------|:---------------------------------------------------- --------|:--------------------:|
 | Konduru Pavan Sai Varma    | https://github.com/chidvik                  | https://github.com/chidvik/preptrack-chidvik                 | ✅ Completed         |
 | Baba Fakruddin             | https://github.com/babafakruddin-03         | https://github.com/babafakruddin-03/preptrack-balu           | ✅ Completed         |
 | Member 3                   |                                             |                                                              | ⏳ Pending           |
