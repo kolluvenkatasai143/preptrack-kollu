@@ -1,14 +1,10 @@
-  # 🚀 PrepTrack
+# 🚀 PrepTrack
 
-##  🎯 Placement Preparation Performance Analyzer
+## 🎯 Placement Preparation Performance Analyzer
 
-###   Evaluate • Analyze • Improve • Succeed
+### Evaluate • Analyze • Improve • Succeed
 
-
-
-
-
-
+---
 
 > 💡 **PrepTrack** is a Python-based application that evaluates a student's placement readiness by analyzing attendance, project completion, profile verification, and coding practice performance. It provides detailed insights along with the student's final placement status and recommendations.
 
@@ -77,24 +73,24 @@ The application performs detailed analysis of attendance, coding performance, sc
 # 🧠 Python Concepts Used
 
 | Concept              | Status |
-| :------------------- | :----: |
-| Variables            |    ✅   |
-| Data Types           |    ✅   |
-| User Input           |    ✅   |
-| Type Casting         |    ✅   |
-| Arithmetic Operators |    ✅   |
-| Relational Operators |    ✅   |
-| Logical Operators    |    ✅   |
-| Assignment Operators |    ✅   |
-| if / elif / else     |    ✅   |
-| Nested Conditions    |    ✅   |
-| for Loop             |    ✅   |
-| while Loop           |    ✅   |
-| continue Statement   |    ✅   |
-| Counters             |    ✅   |
-| Accumulators         |    ✅   |
-| Boolean Expressions  |    ✅   |
-| f-Strings            |    ✅   |
+|:----------------------|:------:|
+| Variables             |   ✅   |
+| Data Types            |   ✅   |
+| User Input            |   ✅   |
+| Type Casting          |   ✅   |
+| Arithmetic Operators  |   ✅   |
+| Relational Operators  |   ✅   |
+| Logical Operators     |   ✅   |
+| Assignment Operators  |   ✅   |
+| if / elif / else      |   ✅   |
+| Nested Conditions     |   ✅   |
+| for Loop              |   ✅   |
+| while Loop            |   ✅   |
+| continue Statement    |   ✅   |
+| Counters              |   ✅   |
+| Accumulators          |   ✅   |
+| Boolean Expressions   |   ✅   |
+| f-Strings             |   ✅   |
 
 ---
 
@@ -129,11 +125,11 @@ python3 main.py
 # 👨‍💻 Individual Contribution
 
 | Category           | Details                                         |
-| :----------------- | :---------------------------------------------- |
-| **Name**           | Kollu Venkata Sai                               |
-| **Role**           | Python Developer                                |
-| **GitHub Profile** | https://github.com/kolluvenkatasai143           |
-| **Repository**     | https://github.com/kolluvenkatasai143/PrepTrack |
+|:--------------------|:--------------------------------------------------|
+| **Name**            | Kollu Venkata Sai                                 |
+| **Role**            | Python Developer                                  |
+| **GitHub Profile**  | https://github.com/kolluvenkatasai143             |
+| **Repository**      | https://github.com/kolluvenkatasai143/PrepTrack   |
 
 ### 🚀 My Main Contribution
 
@@ -183,17 +179,19 @@ Used the `continue` statement to skip absent days and maintained separate counte
 
 # 👥 Team Directory *(Team Lead Only)*
 
-| Member Name                | GitHub Profile Link | PrepTrack Repository Link                                | Submission Status |
-| :--------------------------| :------------------ | :------------------------ | :---------------:            |                   |
-| Konduru Pavan Sai Varma    |                     |  https://github.com/chidvik/preptrack-chidvik            |     Completed     |
-| Baba Fakruddin             |                     | https://github.com/babafakruddin-03/preptrack-balu       |     Completed     |
-| Member 3                   |                     |                                                          |     ⏳ Pending    |
-| Member 4                   |                     |                                                          |     ⏳ Pending    |
-| Member 5                   |                     |                                                          |     ⏳ Pending    |
-| Member 6                   |                     |                                                          |     ⏳ Pending    |
-| Member 7                   |                     |                                                          |     ⏳ Pending    |
-| Member 8                   |                     |                                                          |     ⏳ Pending    |
-    
+| Member Name              | GitHub Profile Link                     | Repository Link                                      | Submission Status |
+|:---------------------------|:-------------------------------------------|:---------------------------------------------------------|:--------------------:|
+| Konduru Pavan Sai Varma   | https://github.com/chidvik                | https://github.com/chidvik/preptrack-chidvik           | ✅ Completed         |
+| Baba Fakruddin            | https://github.com/babafakruddin-03       | https://github.com/babafakruddin-03/preptrack-balu     | ✅ Completed         |
+| Member 3                  |                                             |                                                            | ⏳ Pending           |
+| Member 4                  |                                             |                                                            | ⏳ Pending           |
+| Member 5                  |                                             |                                                            | ⏳ Pending           |
+| Member 6                  |                                             |                                                            | ⏳ Pending           |
+| Member 7                  |                                             |                                                            | ⏳ Pending           |
+| Member 8                  |                                             |                                                            | ⏳ Pending           |
+| Member 9                  |                                             |                                                            | ⏳ Pending           |
+| Member 10                 |                                             |                                                            | ⏳ Pending           |
+
 ---
 
 # 📁 Project Structure
@@ -225,8 +223,6 @@ PrepTrack/
 🤝 Suitable for Team Collaboration
 
 ---
-
-
 
 # 🙋‍♂️ Author
 
