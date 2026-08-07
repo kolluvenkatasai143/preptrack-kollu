@@ -181,8 +181,8 @@ Used the `continue` statement to skip absent days and maintained separate counte
 
 | 👤 Member Name | 🔗 GitHub Profile | 📁 Repository | 📊 Submission Status |
 |:---|:---|:---|:---:|
-| Sai Varma | GitHub](https://github.com/chidvik) | Repository](https://github.com/chidvik/preptrack-chidvik) | ✅ Completed |
-| Baba Fakruddin | GitHub](https://github.com/babafakruddin-03) | Repository](https://github.com/babafakruddin-03/preptrack-balu) | ✅ Completed |
+| Sai Varma | https://github.com/chidvik | https://github.com/chidvik/preptrack-chidvik | ✅ Completed |
+| Baba Fakruddin | https://github.com/babafakruddin-03 |https://github.com/babafakruddin-03/preptrack-balu | ✅ Completed |
 | Member 3 | | — | ⏳ Pending |
 | Member 4 | — | — | ⏳ Pending |
 | Member 5 | — | — | ⏳ Pending |
