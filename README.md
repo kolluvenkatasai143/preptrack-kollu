@@ -177,19 +177,20 @@ Used the `continue` statement to skip absent days and maintained separate counte
 
 ---
 
-# 👥 Team Directory *(Team Lead Only)*
+## 👥 Team Members
 
-| Member Name                | GitHub Profile Link                         | Repository Link                                              |    Submission Status |
-| Konduru Pavan Sai Varma    | https://github.com/chidvik                  | https://github.com/chidvik/preptrack-chidvik                 | ✅ Completed         |
-| Baba Fakruddin             | https://github.com/babafakruddin-03         | https://github.com/babafakruddin-03/preptrack-balu           | ✅ Completed         |
-| Member 3                   |                                             |                                                              | ⏳ Pending           |
-| Member 4                   |                                             |                                                              | ⏳ Pending           |
-| Member 5                   |                                             |                                                              | ⏳ Pending           |
-| Member 6                   |                                             |                                                              | ⏳ Pending           |
-| Member 7                   |                                             |                                                              | ⏳ Pending           |
-| Member 8                   |                                             |                                                              | ⏳ Pending           |
-| Member 9                   |                                             |                                                              | ⏳ Pending           |
-| Member 10                  |                                             |                                                              | ⏳ Pending           |
+| 👤 Member Name | 🔗 GitHub Profile | 📁 Repository | 📊 Submission Status |
+|:---|:---|:---|:---:|
+| Konduru Pavan | — | — | ⏳ Pending |
+| Sai Varma | [GitHub](https://github.com/chidvik) | [Repository](https://github.com/chidvik/preptrack-chidvik) | ✅ Completed |
+| Baba Fakruddin | [GitHub](https://github.com/babafakruddin-03) | [Repository](https://github.com/babafakruddin-03/preptrack-balu) | ✅ Completed |
+| Member 4 | — | — | ⏳ Pending |
+| Member 5 | — | — | ⏳ Pending |
+| Member 6 | — | — | ⏳ Pending |
+| Member 7 | — | — | ⏳ Pending |
+| Member 8 | — | — | ⏳ Pending |
+| Member 9 | — | — | ⏳ Pending |
+| Member 10 | — | — | ⏳ Pending |
 
 ---
 
